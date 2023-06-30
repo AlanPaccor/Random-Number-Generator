@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: gray;
+}
+  
+.card {
+    text-align: center;
+    width: 400px;
+    padding: 40px;
+    transform: scale(1.2);
+    background-color: darkgray;
+    border-radius: 30px;
+    box-shadow: 0 0 10px black;
+}
+  
+textarea {
+    background-color: lightgray;
+    color: black;
+    width: 100%;
+    padding: 10px;
+    border: 1px dashed black;
+    border-radius: 20px;
+}
+
+.btn {
+    color: black;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+  
+.card-footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+header {
+    font-size: 28px;
+}
+
+
+.card-body {
+    position: relative;
+}
+
+#copy {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
